@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 *{
     margin:0;
     padding:0;
@@ -22,20 +22,27 @@ body {
    width: 500px;
 }
 
+h2{
+    font-family:"poppins";
+    font-weight: 700;
+    font-size:30px ;
+    text-align: center    
+}
+
 
 .cards {
     background-color: #f5b1dbfd;
-    height: 310px;
-    width: 320px;
+    height: 350px;
+    width: 380px;
     border-radius: 20px;
-    padding: 30px 0px 0px 6px;
+    padding: 3px 0px 0px 10px;
     display: inline-block;
     gap:12px;
     position:absolute;
     top:380px;
-    left:525px;
+    left:480px;
     right:50px;
-    font-family:"montserrat";
+    font-family:"poppins";
     font-size:12px ;
     text-align: center;
   
@@ -59,8 +66,8 @@ body {
     text-align: center;
     height: 40px;
     width: 190px;
-    font-family:"montserrat";
-    font-size:20px ;
+    font-family:"poppins";
+    font-size:25px ;
 }
 
 
@@ -78,8 +85,8 @@ input{
     text-align: center;
     height: 40px;
     width: 190px;
-    font-family:"montserrat";
-    font-size:20px ;
+    font-family:"poppins";
+    font-size:25px ;
 }
 
 .botão{
@@ -94,7 +101,7 @@ input{
     font-size: 30px;
     font-weight: 500;
     border: none;
-    font-family: montserrat;
+    font-family: poppins;
 
 
     
@@ -104,10 +111,10 @@ input{
     margin-top: 10px;
     border-radius: 5px;
     padding: 5px;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 500;
     border: none;
-    font-family: "montserrat";
+    font-family: "poppins";
 }
 
 @media screen and (max-width: 500px){
@@ -126,16 +133,15 @@ input{
 
     .cards {
         background-color: #f5b1dbfd;
-        height: 330px;
+        height: 360px;
         width: 250px;
         border-radius: 20px;
         padding: 30px 0px 0px 6px;
         display: inline-block;
         position:absolute;
-        top:350px;
+        top:300px;
         left:70px;
-        right:450px;
-        font-family:"montserrat";
+            font-family:"montserrat";
         font-size:12px ;
         text-align: center;
     }
