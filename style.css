@@ -117,10 +117,10 @@ input{
     font-family: "poppins";
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     
  .posicao .fundo{
-        width: 420px;
+        width: 500px;
         
     }
     
@@ -133,13 +133,13 @@ input{
 
     .cards {
         background-color: #f5b1dbfd;
-        height: 360px;
+        height: 400px;
         width: 250px;
         border-radius: 20px;
         padding: 30px 0px 0px 6px;
         display: inline-block;
         position:absolute;
-        top:300px;
+        top:390px;
         left:70px;
             font-family:"montserrat";
         font-size:12px ;
