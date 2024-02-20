@@ -4,18 +4,22 @@
     padding:0;
     margin-top: 0;
     text-decoration: none;
-    color:black;
+    color:rgb(247, 16, 55);
+    font-family: "Protest Riot";
     }
 
 body {
     background-color: pink;
-   
+    font-family:"poppins";
+    font-weight: 700;
+    font-size:30px ;
+    text-align: center; 
 }
 
 
 .projeto{
+    top:40px;
     display: flex;
-
 }
 
 .fundo{
@@ -38,16 +42,13 @@ h2{
     padding: 3px 0px 0px 10px;
     display: inline-block;
     gap:12px;
-    position:absolute;
-    top:380px;
-    left:480px;
-    right:50px;
+    position:relative;
+    top:0px;
+    
     font-family:"poppins";
     font-size:12px ;
     text-align: center;
   
-
-
 }
 
 
@@ -102,9 +103,6 @@ input{
     font-weight: 500;
     border: none;
     font-family: poppins;
-
-
-    
 }
 
 .result  {
@@ -119,15 +117,11 @@ input{
 
 @media screen and (max-width: 900px){
     
- .posicao .fundo{
-        width: 500px;
-        
-    }
-    
+
 
     .projetos{
      display: flex;
-        position:relative;
+     top:60px;
    
     }
 
@@ -139,10 +133,11 @@ input{
         padding: 30px 0px 0px 6px;
         display: inline-block;
         position:absolute;
-        top:390px;
-        left:70px;
+        top:290px;
+        
             font-family:"montserrat";
         font-size:12px ;
         text-align: center;
     }
 }
+ /* <img class= "fundo" src="./Sorteio.png">*/

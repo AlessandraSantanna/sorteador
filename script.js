@@ -13,5 +13,3 @@ if (max > min) {
     alert("O valor mínimo tem que ser MENOR que o valor máximo")
 }
 }
-
-    
